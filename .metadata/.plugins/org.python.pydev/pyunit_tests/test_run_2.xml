@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="0" failures="1" finished="true" name="Test Run: 2" tests="1" total_time="Finished in: 0.01 secs."/>
+<test location="/home/peimengsui/Documents/ProgrammingDS/assignment9/ps3336/test.py" status="fail" test="Test.testMerge" time="">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/home/peimengsui/Documents/ProgrammingDS/assignment9/ps3336/test.py", line 14, in testMerge
+    self.assertTrue(all(map(lambda v:v in ['Regrion','Income','Country'],merge_by_year(countries,income,2000))))
+AssertionError: False is not true
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="ps3336 test.py"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>
