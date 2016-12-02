@@ -4,13 +4,14 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from .exceptions import *
 
 class IncomeDistribution(object):
     
     def __init__(self, data, year):
         self.data = data
         self.year = year
-    
+        
     def compare_within_region(self):
         '''
         Generates one bar graph comparing income/pc by country within a region
