@@ -19,9 +19,7 @@ class IncomeDistribution(object):
         '''
         Question 4: Return bar graph of each country's income/pc for a given year
         '''
-    
-        this_year = df.ix[self.year].dropna()
-        year_plot = this_year.plot(kind = "barh", title = "Income by Country in {}".format(self.year))
+        year_plot = self.data.plot(kind = "barh", title = "Income by Country in {}".format(self.year))
         year_plot.set_xlabel("Income")
         plt.show()
     
@@ -35,6 +33,7 @@ class IncomeDistribution(object):
         
         by_region = self.data.groupby("Region")
         
+        ### generate graph for each region, label axes, and save file
         for region in by_region.groups.keys():            
             current_region = by_region.get_group(region) # dataframe for the region
     
@@ -55,6 +54,8 @@ class IncomeDistribution(object):
         '''
         
         comparison_plot = self.data.boxplot(by = "Region", return_type = "dict", rot = 90)
+        
+        # Adjust x axis label and margins
         plt.xlabel("Region")
         plt.subplots_adjust(bottom = 0.3)
     
@@ -80,6 +81,7 @@ class IncomeDistribution(object):
         max_income = self.data["Income"].max()
         max_region_count = max([len(by_region.get_group(region)) for region in by_region.groups.keys()]) / (bins / 2)
         
+        ### generate graphs, label and set the axes, and save
         for region in by_region.groups.keys():            
             current_region = by_region.get_group(region) # dataframe for the region
             

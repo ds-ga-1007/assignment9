@@ -86,18 +86,16 @@ if __name__ == "__main__":
         while True:
             year = prompt_for_year()
     
-            # Question 7: Output graph for the year entered by the user
+            # Question 7: Display graph for the year entered by the user
             this_year = IncomeDistribution(merge_by_year(year, income, countries), year)
-
+            this_year.plot_world_income_for_year()
     
     except (QuitError, KeyboardInterrupt):
-        pass
-        
-        # Question 8: Use all graphing methods created in Question 6 to produce graphs for 2007-2012
+    # Question 8: After the user enters "finish", use all graphing methods created in Question 6 to generate and save graphs for 2007-2012
         years = range(2007, 2013)
-        
-        for this_year in years:
-            this_year.plot_world_income_for_year()
+    
+        for year in years:
+            this_year = IncomeDistribution(merge_by_year(year, income, countries), year)
             this_year.compare_within_region()
             this_year.compare_regional_income_spread()
             this_year.hist_within_region()
