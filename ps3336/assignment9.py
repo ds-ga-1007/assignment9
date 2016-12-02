@@ -19,7 +19,6 @@ if __name__ == '__main__':
             if year == 'Finish':
                 for y in range(2007, 2013, 1):
                     merged = merge_by_year(countries, income, y)
-                    print(merged.columns)
                     tools = dataTool(y,merged)
                     tools.boxplot()
                     tools.histogram()
