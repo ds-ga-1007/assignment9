@@ -1,3 +1,6 @@
+# Author: Leslie Huang (lh1036)
+# Description: Custom errors for handling user input
+
 class InvalidYearError(Exception):
     '''
     Error if user inputs a year not contained in dataset

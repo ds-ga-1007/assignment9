@@ -1,5 +1,5 @@
 # Author: Leslie Huang (lh1036)
-# Description: Main
+# Description: Main program to interact with user and generate graphs
 
 import pandas as pd
 import numpy as np
@@ -7,19 +7,23 @@ import matplotlib.pyplot as plt
 from income.distribution import IncomeDistribution
 from income.exceptions import *
 
-# Read in the datasets
+### Importing and setting up the data
+
+# Questions 1-2: Read in the datasets
 countries = pd.read_csv("countries.csv", index_col = "Country")
 income = pd.read_excel("indicator gapminder gdp_per_capita_ppp.xlsx", index_col = "gdp pc test")
 
-# transpose rows = years, cols = countries
+# Question 3: transpose rows = years, cols = countries
 income = income.transpose()
 
-# Print head()
-# print(income.head())
+# Question 3: print head() of data
+print("Per question #3, view the head of the transformed income dataset.")
+print(income.head())
 
+### Helper functions to prompt and handle user input of year
 def quitting_input(prompt):
     '''
-    Program will stop running if user types "finish," which raises QuitError
+    Program exits if user types "finish," which raises QuitError
     '''
     userinput = input(prompt)
     
@@ -30,8 +34,9 @@ def quitting_input(prompt):
 
 def prompt_for_year():
     '''
-    Repeat prompting user for year until "finish" is entered.
+    Prompt user for year. Repeats prompt until "finish" is entered.
     '''
+    
     while True:
         try:
             userinput = quitting_input("Please enter a year or 'finish' when you are done.")
@@ -42,8 +47,11 @@ def prompt_for_year():
 
 def validate_year(input_year):
     '''
-    Validate that a year is in the income dataset
+    Validate that user input is a valid year from the income dataset
+    Raises InvalidYearError if (1) input type is invalid (e.g. string or float) 
+    or (2) year is not in data
     '''
+    
     try:
         year = int(input_year)
         
@@ -56,42 +64,41 @@ def validate_year(input_year):
     except:
         raise InvalidYearError()
         
-
-def plot_year_income(year, df=income):
-    '''
-    Return bar graph of each country's avg income/pc for a given year
-    '''
-    
-    this_year = df.ix[year].dropna()
-    year_plot = this_year.plot(kind = "barh", title = "Income by Country in {}".format(year))
-    year_plot.set_xlabel("Income")
-    plt.show()
-    
-    return year_plot
-
+### Function to generate dataframe for a specified year, for use in constructing IncomeDistribution objects. This function does not belong in a separate class
 def merge_by_year(year, income, countries):
     '''
-    Return DataFrame of income/pc for specified year, merging income and countries DFs
+    Question 5: Return properly labeled DataFrame of income/pc per country for a specified year.
+    Merges income and countries DFs
+    NOTE: I choose to pass the DFs to be merged (income and countries) as additional parameters
+    to allow flexible use of this function in other settings
     '''
+    
     merged = countries.join(income.ix[year], how = "outer")
     merged.reset_index(level = 0, inplace = True)
     
     return merged.rename(columns = {"index": "Country", year: "Income"})
 
 
-# Runs the main program
+### Runs the main program
 if __name__ == "__main__":
     
     try:
         while True:
             year = prompt_for_year()
     
-            # output all graphs for the given year
+            # Question 7: Output graph for the year entered by the user
             this_year = IncomeDistribution(merge_by_year(year, income, countries), year)
-            this_year.compare_within_region()
-            this_year.compare_regional_income_spread()
-            this_year.hist_within_region() 
+
     
     except (QuitError, KeyboardInterrupt):
         pass
+        
+        # Question 8: Use all graphing methods created in Question 6 to produce graphs for 2007-2012
+        years = range(2007, 2013)
+        
+        for this_year in years:
+            this_year.plot_world_income_for_year()
+            this_year.compare_within_region()
+            this_year.compare_regional_income_spread()
+            this_year.hist_within_region()
             

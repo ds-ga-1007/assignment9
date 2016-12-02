@@ -1,5 +1,5 @@
 # Author: Leslie Huang (lh1036)
-# Description: IncomeDistribution constructor and methods
+# Description: IncomeDistribution constructor and methods (Question 6)
 
 import pandas as pd
 import numpy as np
@@ -9,12 +9,28 @@ from .exceptions import *
 class IncomeDistribution(object):
     
     def __init__(self, data, year):
+        '''
+        Constructor
+        '''
         self.data = data
         self.year = year
-        
+    
+    def plot_world_income_for_year(self):
+        '''
+        Question 4: Return bar graph of each country's income/pc for a given year
+        '''
+    
+        this_year = df.ix[self.year].dropna()
+        year_plot = this_year.plot(kind = "barh", title = "Income by Country in {}".format(self.year))
+        year_plot.set_xlabel("Income")
+        plt.show()
+    
+        return year_plot
+    
     def compare_within_region(self):
         '''
-        Generates one bar graph comparing income/pc by country within a region
+        Question 6: Generates one bar graph per region
+        Each bar graph compares income/pc by country in that region
         '''
         
         by_region = self.data.groupby("Region")
@@ -35,7 +51,7 @@ class IncomeDistribution(object):
     
     def compare_regional_income_spread(self):
         '''
-        Generates comparison boxplot of spread of average income/pc in each region
+        Question 6: Generates one boxplot representing the spread of income/pc for each region
         '''
         
         comparison_plot = self.data.boxplot(by = "Region", return_type = "dict", rot = 90)
@@ -51,12 +67,16 @@ class IncomeDistribution(object):
     
     def hist_within_region(self, bins = 10):
         '''
-        Generates histogram for each region representing distribution of incomes across specified number of bins
+        Question 6: Generates one histogram per region
+        Each histogram represents distribution of incomes in that region, across specified number of bins
+        To allow for comparison between regions (Question 9), y and x axes are set to 
         '''
         
         by_region = self.data.groupby("Region")
         
-        # calculate values to use as xlim and ylim in plot based on bounds of the data
+        # to allow for comparison between regions (Question 9), calculate values to use as xlim and ylim 
+        # for all of the plots. If .plot automatically set x and y axes for each plot, they will 
+        # not necessarily be the same and visual comparison of graphs will be difficult
         max_income = self.data["Income"].max()
         max_region_count = max([len(by_region.get_group(region)) for region in by_region.groups.keys()]) / (bins / 2)
         
@@ -68,6 +88,7 @@ class IncomeDistribution(object):
             plt.xlabel("Income Ranges")
             plt.ylabel("Number of Countries that Fall in Income Range")
             
+            # set axes for consistency across all plots
             axes = plt.gca()
             axes.set_xlim([0, max_income])
             axes.set_ylim([0, max_region_count])
