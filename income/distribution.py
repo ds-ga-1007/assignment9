@@ -21,7 +21,7 @@ class IncomeDistribution(object):
         for region in by_region.groups.keys():            
             current_region = by_region.get_group(region) # dataframe for the region
     
-            region_plot = current_region.plot(kind = "bar", title = "Income/PC in Region: {}".format(region))
+            region_plot = current_region.plot(kind = "bar", title = "Income/PC in Region: {}, {}".format(region, self.year))
             plt.xlabel("Country")
             plt.ylabel("Income")
             
@@ -29,7 +29,7 @@ class IncomeDistribution(object):
             region_plot.set_xticklabels(current_region["Country"], size = 8)            
             plt.subplots_adjust(bottom = 0.5)
 
-            plt.savefig("income_by_country_{}.pdf".format(region))
+            plt.savefig("{}_income_by_country_{}.pdf".format(self.year, region))
             plt.close()
     
     def compare_regional_income_spread(self):
@@ -42,10 +42,10 @@ class IncomeDistribution(object):
         plt.subplots_adjust(bottom = 0.3)
     
         # add title and get rid of automatically added title
-        plt.title("Spread of Income PC, Grouped by Region")
+        plt.title("Spread of Income PC, Grouped by Region {}".format(self.year))
         plt.suptitle("")
         
-        plt.savefig("regional_spread_income_{}.pdf".format(" "))
+        plt.savefig("{}_regional_spread_income.pdf".format(self.year))
         plt.close()
     
     def hist_within_region(self, bins = 10):
@@ -62,7 +62,7 @@ class IncomeDistribution(object):
         for region in by_region.groups.keys():            
             current_region = by_region.get_group(region) # dataframe for the region
             
-            region_plot = current_region.plot.hist(bins = bins, title = "Distribution of Income in Region: {}".format(region), grid = True)
+            region_plot = current_region.plot.hist(bins = bins, title = "Distribution of Income in Region: {}, {}".format(region, self.year), grid = True)
             
             plt.xlabel("Income Ranges")
             plt.ylabel("Number of Countries that Fall in Income Range")
@@ -71,7 +71,7 @@ class IncomeDistribution(object):
             axes.set_xlim([0, max_income])
             axes.set_ylim([0, max_region_count])
             
-            plt.savefig("histogram_income_by_country_{}.pdf".format(region))
+            plt.savefig("{}_hist_income_by_country_{}.pdf".format(self.year, region))
             plt.close()
         
 
