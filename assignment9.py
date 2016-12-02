@@ -30,7 +30,7 @@ def plot_year_income(year, df=income):
 
 # plot_year_income(2012)
 
-def merge_by_year(year, income = income, countries = countries):
+def merge_by_year(year, income, countries):
     '''
     Return DataFrame of income/pc for specified year, merging income and countries DFs
     '''
@@ -39,10 +39,10 @@ def merge_by_year(year, income = income, countries = countries):
     
     return merged.rename(columns = {"index": "Country", year: "Income"})
     
-     
-income_2012 = merge_by_year(2012)
-
-id = IncomeDistribution(income_2012)
+year = 2012
+id = IncomeDistribution(merge_by_year(year, income, countries), year)
 # id.compare_within_region()
 
 id.hist_within_region()
+
+# id.compare_regional_income_spread()
