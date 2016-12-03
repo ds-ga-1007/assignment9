@@ -63,6 +63,10 @@ class IncomeDistribution(object):
         plt.title("Spread of Income PC, Grouped by Region {}".format(self.year))
         plt.suptitle("")
         
+        # To allow for comparison of graphs from different years, manually set the ylim 
+        axes = plt.gca()
+        axes.set_ylim([0, 100000])
+        
         plt.savefig("{}_regional_spread_income.pdf".format(self.year))
         plt.close()
     
