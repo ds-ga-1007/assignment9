@@ -1,0 +1,9 @@
+Conclusion:
+
+1.From boxplots we could notice that Europe has a highest median Income per person among all regions while Africa has the lowest.
+
+2.From plots we see Income did not change that much over period 2007-2012. But all histograms show a heavy right-skewed tail, which indicates the distribution of income
+is very unbalanced: few countries are pretty rich but most of the countries have a low 
+income generally.
+
+3.There are few outliers in boxplots from the datasets which means some countries are extremely rich compared to the rest of the world.
