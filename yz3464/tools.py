@@ -52,6 +52,7 @@ class tools:
         plt.xlabel('income per person in different countries')
         plt.ylabel('Income count')
         plt.title('histograms of the income per person by region in the year '+str(year))
+        plt.legend(loc=1)
         
         if filename == None:
             plt.show()
