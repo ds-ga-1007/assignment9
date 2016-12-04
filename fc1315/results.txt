@@ -1,0 +1,19 @@
+
+A short description of the changes I observe over the period:
+
+1. For Africa, the outliers in the boxplots become fewer and fewer, and the histograms become less skewed.
+This means more African countries have a higher-than-average income per person.
+
+2. For Asia, the boxplots grow higher and the histograms move rightwards.
+This means income per person of Asian countries has an overall increase during this time period.
+
+3. For Europe, the sections of the boxplots and the bars of the histograms become more even in size over time.
+This means income per person across European countries become more uniformly distributed.
+
+4. For North America, at first countries are very similar between the lower and middle quartile, 
+while varied between the middle and higher quartile. Later the lengths of these two parts become almost the same.
+
+5. For Oceania, the boxplot first becomes longer, then becomes shorter. 
+This means the dispersion of income per person across Oceania countries first increases, then decreases.
+
+6. For South America, the distribution keeps stable and changes little.
