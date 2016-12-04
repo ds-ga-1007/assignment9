@@ -1,0 +1,3 @@
+1.From the histogram and boxplot grams for year from 2007 to 2012, we could see the distribution of income per person is very unbalanced for different continents. Even though in the same contient, different countries have different income per person levels.
+
+2. During this period from 2007 to 2012, there exist some changes but not much. For example, some times Asian countries have the highest income per person in the world, some times Europe countries have the highest per person income. And from the boxplot, I notice that in 2012, the difference between countries in the Oceania is largely decreased.  
