@@ -5,7 +5,7 @@ Created on Dec 4, 2016
 '''
 import unittest
 from tools import *
-#import pandas as pd
+import pandas as pd
 import numpy as np
 
 countries = pd.read_csv('/Users/twff/assignment9/yz3464/countries.csv', index_col = 0) #question1

@@ -13,7 +13,7 @@ if __name__=='__main__':
     print(income_transpose.head())#question 3
     
     try:
-        user_input = input('Input year or enter finish')
+        user_input = input('Input year or enter finish: ')
         #show income distribution plot
         while user_input != 'finish':#question7
             try:
@@ -21,7 +21,7 @@ if __name__=='__main__':
                 incomeDistribution(income, year)
             except ValueError:
                 print('Invalid input')
-            user_input = input('Input year or enter finish')
+            user_input = input('Input year or enter finish: ')
     except KeyboardInterrupt:
         print('Interrupted')
         sys.exit(1)
@@ -29,7 +29,6 @@ if __name__=='__main__':
     tool = tools()   #question8
     for year in range(2007,2013):
         merged = merge_by_year(countries, income, year)
-        print(merged.head(5))
         tool.boxplot_by_region(merged, 'boxplot %d.pdf' %year, year)
         tool.histogram_by_region(merged, 'histogram %d.pdf' %year, year)
     

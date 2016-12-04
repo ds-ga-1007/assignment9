@@ -62,11 +62,8 @@ class tools:
         plt.close()
         
     def boxplot_by_region(self, mdf, filename = None, year=2012):
-        region = mdf.groupby('Region').Income.apply(list)
-        values = list(region.values)
-        label = list(region.index)
         
-        plt.boxplot(values, labels=label)
+        mdf.boxplot('Income', by = 'Region')
         plt.xlabel('income per person in different countries')
         plt.ylabel('Income count')
         plt.title('boxplot of the income per person by region in the year '+str(year))
