@@ -17,15 +17,15 @@ def plot_year(year, income):
     fig = plt.figure(figsize=(12, 8), dpi=80, facecolor='w', edgecolor='k')
     ax = fig.add_subplot(1, 1, 1)
     bar_color = 'lightskyblue'
-    bar_height = income.loc[1901].values
+    bar_height = income.loc[year].values
     bar_width = .9
     bar_x = range(1, income.shape[1]+1)
     bar = ax.bar(bar_x, bar_height, color = bar_color, width = bar_width, edgecolor = 'none')
     
     ax.set_xticks([x + bar_width/2 for x in  bar_x ])
     ax.set_xticklabels(income.columns, size = 'x-small')
-    plt.title('Per capita income by country in {}'.format(1901))
-    ax.text(6, 6000, 'Drag the slider below to see country details', fontweight = 'bold', color = 'b', 
+    plt.title('Per capita income by country in {}'.format(year))
+    ax.text(6, 2500, 'Drag the slider below to see country details', fontweight = 'bold', color = 'b', 
             horizontalalignment='center', size = 'large')
     
     ax.set_xlim(1, 10)
@@ -36,7 +36,7 @@ def plot_year(year, income):
     slider.valtext.set_visible(False)
     
     def update(val):
-        ax.axis([slider.val, slider.val + 10, 0, income.loc[1901].max()])
+        ax.axis([slider.val, slider.val + 10, 0, income.loc[year].max()])
         fig.canvas.draw_idle()
 
     slider.on_changed(update) 
