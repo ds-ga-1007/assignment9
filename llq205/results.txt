@@ -1,0 +1,2 @@
+1. Income per capita varies much across different regions. Europe has the highest average income while Africa has the lowest.
+2. From the plots, we can tell that income per person in Africa and North America did not change much over the years. In Asia and South America, growths can be observed, whereas in Europe and Oceania income per person decreased.
