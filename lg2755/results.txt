@@ -1,0 +1,7 @@
+Below are my conclusions from the data:
+
+1. Comparing income per capita across regions, it varies much across different regions, with Europe being the wealthiest and South Africa being the least prosperous region.
+
+2. South America has the largest IQR, and Oceania has the smallest IQR. This can be interpreted as that income per capita is wide spread across the spectrum in South America whereas it is centered around the median in Oceania.
+
+2. The income per capita did not change much for each region across the five year time period.
