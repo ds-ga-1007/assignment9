@@ -29,8 +29,8 @@ if __name__=='__main__':
     tool = tools()   #question8
     for year in range(2007,2013):
         merged = merge_by_year(countries, income, year)
-        tool.boxplot_by_region(merged, 'boxplot %d.pdf' %year, year)
-        tool.histogram_by_region(merged, 'histogram %d.pdf' %year, year)
+        tool.boxplot_by_region(merged, 'graphs/boxplot %d.pdf' %year, year)
+        tool.histogram_by_region(merged, 'graphs/histogram %d.pdf' %year, year)
     
     print('Finish plot')
     

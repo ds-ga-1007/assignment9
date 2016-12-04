@@ -19,7 +19,7 @@ def incomeDistribution(df, year, bins=50):
     plt.ylabel('Income count')
     plt.title('distribution of income per person across all countries in the world in the year '+str(year))
     plt.show()
-    fig.savefig('Distribution of Income '+str(year)+'.pdf')
+    fig.savefig('graphs/Distribution of Income '+str(year)+'.pdf')
     plt.close()
 
 def merge_by_year(countries, income, year=2012):
