@@ -1,5 +1,0 @@
-From the boxplots in the years 2007-2012 we can see that the per capita income
-is growing in Africa, Asia and South America and contracting in Europe and North America.
-In Oceania it seems to be growing up until 2008 then one outlier (likely Australia or New Zealand) continues to grow while the rest of the region’s per capita income contracts.
-
-From the histograms we get a similar picture of the general trends, but we can also see that most of the gains in Asia seem to be coming from countries in the $20,000 range moving up towards the $30,000 range and the one outlier (likely Singapore).
