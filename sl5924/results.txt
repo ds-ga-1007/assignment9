@@ -5,6 +5,6 @@ Results:
 
 From the distribution histograms for 2007-2012, it is obvious to see the difference among regions in all the years. 
 
-Globally, the median per capital incomes didn’t change to much along with time as we can see from the histograms. In this six-year period, a major global recession and early economic recovery happened, these two events, however, didn’t affect the median income at the country level. 
+Globally, the median per capital incomes didn’t change too much along with time as we can see from the histograms. In this six-year period, a major global recession and early economic recovery happened, these two events, however, didn’t affect the median income at the country level. 
 
 Also, In the whole periods, Africa is still the poorest region over the world. The gap between the rich and the poor in Asia was increasing as we can see from the box plots
