@@ -1,0 +1,19 @@
+From the boxplots over 2007 to 2012, we note a discernable decline from 2007 to 2008 across effectively all regions. We
+can further see a varied income per capita across regions, as well -- with Africa consistently averaging approximately
+one-fifth of Europe's GDP.
+
+From the corresponding histograms, we can see:
+
+    - Africa's GDP has mostly stayed constant, if not slightly increased at the lower end of income.
+    - Asia's GDP shows an initial incline in GDP from 2007 to 2008, but ultimately settles at the lower end. We note
+      the long right tail in all years, but especially from 2010 to 2012.
+    - Europe's GDP seems, at first, almost bi-modal around low and middle-range incomes. Towards 2012 it seems as
+      though the right tail has relaxed a bit.
+    - North America's GDP is much lower relative to Asia's across all years. We also note the (unfortunately)
+      predictable case where America's income per person by region is heavily right-tailed, with a small minority
+      representing a large portion of the income.
+    - Oceania's GDP is seemingly-fragmented -- that is, there is representation of income per region across all
+      income ranges. This distribution does not change much -- if only centralizing around the lower range -- over
+      the 2007 to 2012 interval.
+    - South America's GDP is on par with Africa's, but much more fragmented. Their GDP is consistently partitioned
+      between low-end incomes, a diverse range of middle-range income, and some high-range incomes.
