@@ -1,9 +1,9 @@
-from . import gdp_analysis_utils as utils
+from . import income_analysis_utils as utils
 import pandas as pd
 import matplotlib.pyplot as plt
 
 
-class GdpAnalysis(object):
+class IncomeAnalysis(object):
     def _validate_year(self, year):
         if year not in self._country_gdp_per_capita.index:
             raise ValueError("Year \'%s\' not present in the dataset." % str(year))
@@ -81,6 +81,7 @@ class GdpAnalysis(object):
             df = self.merge_by_year(y)
             df.dropna(inplace=True)
             df.boxplot(column='Income', by='Region')
+            plt.title("Income per person")
             plt.savefig(path, format='pdf')
             plt.clf()
         plt.rcParams['figure.figsize'] = self._default_plot_size

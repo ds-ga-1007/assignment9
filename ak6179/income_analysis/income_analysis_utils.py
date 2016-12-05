@@ -10,7 +10,7 @@ def get_int_year(year):
         y = int(year)
         return y
     except ValueError:
-        return False
+        raise ValueError("The supplied year is not an integer.")
 
 
 def check_dataframe(df):
