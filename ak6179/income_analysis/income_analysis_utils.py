@@ -16,7 +16,7 @@ def get_int_year(year):
 def check_dataframe(df):
     """
     Checks if df is an instance of pandas dataframe
-    :param dataframe
+    :param df
     """
     if not isinstance(df, pd.DataFrame):
         raise ValueError("Instance is not a dataframe")
