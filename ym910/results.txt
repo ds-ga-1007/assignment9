@@ -1,0 +1,7 @@
+The histograms presents the rapid development of Asian contries in 5 years, 
+while Europe holds its leading positions in world economy, despite its slow-down
+development. 
+The box plots also shows that Europe has the highest average income per cap through
+5 years with some extreme outliers, implying the growing gap between rich and poor.
+Asia grows rapidly in the five years, with an increasing deviation, in fact, Asia has
+the largest deviations, probably driven by big countries such as China, Japan and Korea.
