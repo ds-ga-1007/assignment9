@@ -1,0 +1,3 @@
+1. From the histograms we can see that income per capita varies greatly for different regions. African countries as a whole remain the poorest over 2007 - 2012, while most European countries are more developed. Some Asian countries are getting richer over the years while most still have low income.
+
+2. The boxplot shows that Europe has the highest average income which shrinked a little bit in 2012. And it also has very high variation. Africa has the lowest average with little variation, so most of countries in Africa are underdeveloped. Aisa also have a low average but with high deviation that keeps getting even higher over the years. Countries of Oceania are most likely experiencing recession over the years, while other 2 regions are more stable.
