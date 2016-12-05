@@ -8,19 +8,6 @@ from income.distribution import IncomeDistribution
 from income.exceptions import *
 from userinput import *
 
-### Importing and setting up the data
-
-# Questions 1-2: Read in the datasets
-countries = pd.read_csv("countries.csv", index_col = "Country")
-income = pd.read_excel("indicator gapminder gdp_per_capita_ppp.xlsx", index_col = "gdp pc test")
-
-# Question 3: transpose rows = years, cols = countries
-income = income.transpose()
-
-# Question 3: print head() of data
-print("Per question #3, view the head of the transformed income dataset.")
-print(income.head())
-
 ### Function to generate dataframe for a specified year, for use in constructing IncomeDistribution objects. This function does not belong in a separate class
 def merge_by_year(year, income, countries):
     '''
@@ -35,6 +22,18 @@ def merge_by_year(year, income, countries):
     
     return merged.rename(columns = {"index": "Country", year: "Income"})
 
+### Importing and setting up the data
+
+# Questions 1-2: Read in the datasets
+countries = pd.read_csv("countries.csv", index_col = "Country")
+income = pd.read_excel("indicator gapminder gdp_per_capita_ppp.xlsx", index_col = "gdp pc test")
+
+# Question 3: transpose rows = years, cols = countries
+income = income.transpose()
+
+# Question 3: print head() of data
+print("Per question #3, view the head of the transformed income dataset.")
+print(income.head())
 
 ### Runs the main program
 if __name__ == "__main__":

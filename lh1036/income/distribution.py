@@ -1,5 +1,6 @@
 # Author: Leslie Huang (lh1036)
 # Description: IncomeDistribution constructor and methods (Question 6)
+# Note: Because all methods in this class return graphical output, there are no unittests
 
 import pandas as pd
 import numpy as np
@@ -73,7 +74,7 @@ class IncomeDistribution(object):
     def hist_within_region(self, bins = 10):
         '''
         Question 6: Generates one histogram per region
-        Each histogram represents distribution of incomes in that region, across specified number of bins
+        Each histogram represents distribution of incomes in a region, across specified number of bins
         To allow for comparison between regions (Question 9), y and x axes are set to 
         '''
         
