@@ -20,20 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="boxplot of incomes from year 2011.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2011.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boxplot of incomes from year 2010.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2010.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="boxplot of incomes from year 2008.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2008.png">
           <provider selected="true" editor-type-id="images">
@@ -41,55 +27,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boxplot of incomes from year 2009.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2009.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boxplot of incomes from year 2012.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2012.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="histogram of incomes from year 2011.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2011.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="histogram of incomes from year 2012.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2012.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/results.txt">
+      <file leaf-file-name="econ_visualizer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EconVisualizer/econ_visualizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="125">
+              <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="histogram of incomes from year 2007.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2007.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="test_visualizer_utilities.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_visualizer_utilities.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boxplot of incomes from year 2007.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2007.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="test_econ_visualizer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_econ_visualizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -101,12 +67,13 @@
         <option value="$PROJECT_DIR$/EconVisualizer/EconVisualizer.py" />
         <option value="$PROJECT_DIR$/EconVisualizer/tests/test_functions.py" />
         <option value="$PROJECT_DIR$/EconVisualizer/__init__.py" />
-        <option value="$PROJECT_DIR$/EconVisualizer/econ_visualizer.py" />
         <option value="$PROJECT_DIR$/EconVisualizer/tests/test_econ_visualizer.py" />
         <option value="$PROJECT_DIR$/assignment9.py" />
         <option value="$PROJECT_DIR$/EconVisualizer/visualizer_utils.py" />
         <option value="$PROJECT_DIR$/EconVisualizer/tests/test_visualizer_utilities.py" />
         <option value="$PROJECT_DIR$/results.txt" />
+        <option value="$PROJECT_DIR$/EconVisualizer/debug" />
+        <option value="$PROJECT_DIR$/EconVisualizer/econ_visualizer.py" />
       </list>
     </option>
   </component>
@@ -359,7 +326,7 @@
     <frame x="73" y="24" width="1847" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959394" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3248511" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -396,59 +363,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignment9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EconVisualizer/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EconVisualizer/econ_visualizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EconVisualizer/visualizer_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#1#19#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_visualizer_utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_econ_visualizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -462,12 +381,121 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2010.png">
+    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2011.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2011.png">
+    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2012.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2012.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EconVisualizer/visualizer_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from an unknown year.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2007 for region AFRICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2008 for region AFRICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2009 for region AFRICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2010 for region AFRICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2011 for region AFRICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2012 for region AFRICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2012 for region SOUTH AMERICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2011 for region SOUTH AMERICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2010 for region SOUTH AMERICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2009 for region SOUTH AMERICA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2009 for region OCEANIA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2012 for region OCEANIA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2007 for region OCEANIA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from   year 2011 for region OCEANIA.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EconVisualizer/debug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2010.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -477,7 +505,20 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2012.png">
+    <entry file="file://$PROJECT_DIR$/assignment9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2009.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2007.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -497,25 +538,28 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2009.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2007.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2012.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results.txt">
+    <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_econ_visualizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="645">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EconVisualizer/econ_visualizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_visualizer_utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding />
         </state>
       </provider>

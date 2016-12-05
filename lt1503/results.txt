@@ -1,4 +1,9 @@
-Looking through boxplots and histograms of incomes of countries from the year 2007-2012, I was not able to
+Individually, it seems the average income per person decreases over time for Europe, stays relatively
+constant for Africa, and increases for Latin America. This would point at Europe not trouble with its EU reformations
+or other factors, and American corporations rushing to capitalize on revolutionizing countries in South America
+and South East Asia. An overall analysis
+
+An overall analysis of the through boxplots and histograms of incomes of countries as a whole, I was not able to
 detect many large scale consistent changes.
 Overall, the significantly positive outliers were slightly lower and there were fewer large outliers in the
 later years as opposed to the earlier. Also, the group of moderately wealthy outlier countries (the top 25-10%)

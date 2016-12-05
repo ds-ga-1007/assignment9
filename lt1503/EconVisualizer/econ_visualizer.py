@@ -22,7 +22,7 @@ class EconVisualizer(object):
     
     def graph_years(self, years):
         """
-        graph incomes from income and countries dataframes of a list of years
+        graph income from income and countries dataframes within list of years
         :param years: int-like
         :return: None. Writes boxplots and histograms to file for income and country data
                 for years in parameter years
@@ -47,6 +47,9 @@ class EconVisualizer(object):
 
             merged_df = merge_by_year(self.income, self.countries, year)
 
+            #for region in merged_df['Region'].unique():
+            #    region_df = merged_df[merged_df['Region']==region,:]
+            #    region_df.year = year
             self._box(merged_df, visualize = False)
             self._hist(merged_df, visualize = False)
             
@@ -63,11 +66,11 @@ class EconVisualizer(object):
             raise TypeError("hist df must be a pandas DataFrame")
 
         try:
-            income = df["income"]
+            df["income"]
         except KeyError:
-            raise KeyError("econ visualizer histograms require income columns")
+            raise ValueError("econ visualizer histograms require income columns")
         plt.figure()
-        income.hist()
+        df.hist(column='income', by='Region')
         
         try:
             year_label = "year " + str(df.year)
@@ -80,7 +83,8 @@ class EconVisualizer(object):
         plt.savefig("histogram of incomes from " + year_label + ".png")
 
         if visualize:
-            plt.show()   
+            plt.show()
+        plt.close()
             
     def _box(self, df, visualize = True):
         """
@@ -95,11 +99,11 @@ class EconVisualizer(object):
             raise TypeError("box df must be a pandas DataFrame")
 
         try:
-            income = df[["income"]]
+            df[["income"]]
         except KeyError:
             raise KeyError("econ visualizer booxplots require income columns")
-        plt.figure()   
-        income.boxplot()
+        plt.figure()
+        df.boxplot(column='income', by='Region')
         
         try:
             year_label = "year " + str(df.year)
@@ -112,3 +116,4 @@ class EconVisualizer(object):
 
         if visualize:
             plt.show()
+        plt.close()
