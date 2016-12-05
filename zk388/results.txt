@@ -1,0 +1,20 @@
+Major changes over these 6 years:
+
+1. From 2007 to 2008: 
+In Europian countries income per person reduces both on average and on median, as shown by the histograms and the box plots. 
+The inter-quartile range of the Oceania countries increased.
+
+2. From 2008 to 2009: 
+Europe and north america have lower medians. Also averge income decreased for Europe and North America.
+
+3. From 2009 to 2010: 
+Reduction of income countinues in North America and Europe 
+Asia increased on average in income per person.
+
+4. From 2011 to 2012: 
+Oceania and Europe have lower medians and 3rd quartiles. 
+
+Overall, it seems that Europe and North America has been more affected by the financial crisis in 2008. However, Europe and Oceania seem to have a harder time recovering from the crisis compared to North America and other continents. Asia seems to be recovered from the crisis on average.
+ 
+
+
