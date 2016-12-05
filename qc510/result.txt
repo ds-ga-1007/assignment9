@@ -1,3 +1,3 @@
 From the boxplots, we can see that the income for region Europe is decreasing every year from 2008 to 2012.
-From the histograms, we can see that the income in Aisa and Africa region are diversified.
+From the histograms, we can see that the income in Asia and Africa region are diversified.
 There are countries that have high income, but most of the countries still have low income.

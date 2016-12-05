@@ -1,8 +1,14 @@
 from class_functions import *
+"""
+main module for assignment9. What this module do is to first ask the year that user wants to see the income per person
+across all countries in the world. 
+author: Qianyu Cheng
+"""
+# Print the head of income data
 countries = pd.read_csv('countries.csv')
-income = pd.read_excel('indicator gapminder gdp_per_capita_ppp.xlsx', index_col=0).transpose()
+income = pd.read_excel('indicator gapminder gdp_per_capita_ppp.xlsx', index_col=0)
+income = income.transpose()
 print(income.head())
-
 
 
 while True:
@@ -21,7 +27,9 @@ while True:
     except EOFError:
         break
 
+
 for year in range(2007, 2013):
+    # From year 2007 to year 2012, build up boxplot and histogram for each year
     plot = Exploratory_Data_Analysis()
     plot.boxplots(year)
     plot.histogram(year)
