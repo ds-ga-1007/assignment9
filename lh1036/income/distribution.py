@@ -20,8 +20,10 @@ class IncomeDistribution(object):
         '''
         Question 4: Return bar graph of each country's income/pc for a given year
         '''
-        year_plot = self.data.plot(kind = "barh", title = "Income by Country in {}".format(self.year))
+        year_plot = self.data.plot(kind = "barh", title = "Distribution of Income in the World in {}".format(self.year))
         year_plot.set_xlabel("Income")
+        year_plot.set_yticklabels([])
+        year_plot.set_ylabel("Countries")
         plt.show()
     
         return year_plot

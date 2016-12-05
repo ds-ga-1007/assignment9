@@ -11,10 +11,10 @@ from userinput import *
 ### Function to generate dataframe for a specified year, for use in constructing IncomeDistribution objects. This function does not belong in a separate class
 def merge_by_year(year, income, countries):
     '''
-    Question 5: Return properly labeled DataFrame of income/pc per country for a specified year.
-    Merges income and countries DFs
+    Question 5: Return properly labeled DataFrame of income/pc per country for a specified year,
+    merging income and countries DFs
     NOTE: I choose to pass the DFs to be merged (income and countries) as additional parameters
-    to allow flexible use of this function in other settings
+    to allow flexible use of this function to merge other DFs
     '''
     
     merged = countries.join(income.ix[year], how = "outer")
@@ -22,7 +22,7 @@ def merge_by_year(year, income, countries):
     
     return merged.rename(columns = {"index": "Country", year: "Income"})
 
-### Importing and setting up the data
+### Import and set up the data
 
 # Questions 1-2: Read in the datasets
 countries = pd.read_csv("countries.csv", index_col = "Country")
