@@ -1,0 +1,9 @@
+There are some phenomena that we can observe:
+
+1) The region Europe has the highest income over the time, and Africa has the lowest income.
+
+2) Both the income in Asia and South America increase over time, while the income in Europe and Oceania decrease.
+
+3) Both the region Asia and Europe have a wide income range.
+
+4) Though there are more outlier in Asia over time, the average income is still low.
