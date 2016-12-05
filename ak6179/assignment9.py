@@ -19,9 +19,10 @@ def main():
         print(country_gdp_per_capita.head(n=5))
         min_year = country_gdp_per_capita.index.min()
         max_year = country_gdp_per_capita.index.max()
-        analysis = gdp_analysis.Analysis(countries, country_gdp_per_capita)
-        print("""Enter years for displaying histogram of gdp per capita. Enter \'finish\' to stop plotting histograms. \
-                 Once the histogram is plotted it should be closed to enter the next year.""")
+        analysis = gdp_analysis.GdpAnalysis(countries, country_gdp_per_capita)
+        print(
+            "Enter years for displaying histogram of gdp per capita. Enter \'finish\' to stop plotting histograms. "
+            "Once the histogram is plotted it should be closed to enter the next year.")
         while True:
             try:
                 year = input('Enter year: ')
@@ -30,8 +31,14 @@ def main():
                 analysis.plot_histogram_income_year(year)
             except Exception as e:
                 print(e)
-                print("Please enter an integer year in the range [%s, %s]." % (str(min_year), str(max_year)))
+                print("Please enter an integer year in the range [%s, %s] or enter 'finish' to end." % (
+                    str(min_year), str(max_year)))
                 continue
+        exploratory_years = [x for x in range(2007, 2013)]
+        histogram_paths = ["histogram_" + str(y) + ".pdf" for y in exploratory_years]
+        boxplot_paths = ['boxplot_' + str(y) + ".pdf" for y in exploratory_years]
+        analysis.plot_regions_histogram(exploratory_years, histogram_paths, bins=20)
+        analysis.plot_regions_boxplot(exploratory_years, boxplot_paths)
     except KeyboardInterrupt:
         print("KeyboardInterrupt, exiting.")
         sys.exit()
