@@ -20,71 +20,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="econ_visualizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EconVisualizer/econ_visualizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-              <folding />
-            </state>
+      <file leaf-file-name="boxplot of incomes from year 2011.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2011.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_econ_visualizer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_econ_visualizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="boxplot of incomes from year 2010.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2010.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_visualizer_utilities.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_visualizer_utilities.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="boxplot of incomes from year 2008.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2008.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EconVisualizer/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-              <folding />
-            </state>
+      <file leaf-file-name="boxplot of incomes from year 2009.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2009.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visualizer_utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EconVisualizer/visualizer_utils.py">
+      <file leaf-file-name="boxplot of incomes from year 2012.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2012.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="histogram of incomes from year 2011.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2011.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="histogram of incomes from year 2012.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2012.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="results.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/results.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assignment9.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment9.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="histogram of incomes from year 2007.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2007.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boxplot of incomes from year 2007.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2007.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -95,12 +100,13 @@
       <list>
         <option value="$PROJECT_DIR$/EconVisualizer/EconVisualizer.py" />
         <option value="$PROJECT_DIR$/EconVisualizer/tests/test_functions.py" />
-        <option value="$PROJECT_DIR$/EconVisualizer/visualizer_utils.py" />
         <option value="$PROJECT_DIR$/EconVisualizer/__init__.py" />
-        <option value="$PROJECT_DIR$/assignment9.py" />
         <option value="$PROJECT_DIR$/EconVisualizer/econ_visualizer.py" />
-        <option value="$PROJECT_DIR$/EconVisualizer/tests/test_visualizer_utilities.py" />
         <option value="$PROJECT_DIR$/EconVisualizer/tests/test_econ_visualizer.py" />
+        <option value="$PROJECT_DIR$/assignment9.py" />
+        <option value="$PROJECT_DIR$/EconVisualizer/visualizer_utils.py" />
+        <option value="$PROJECT_DIR$/EconVisualizer/tests/test_visualizer_utilities.py" />
+        <option value="$PROJECT_DIR$/results.txt" />
       </list>
     </option>
   </component>
@@ -392,29 +398,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignment9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="-139">
+          <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EconVisualizer/visualizer_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EconVisualizer/econ_visualizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -426,23 +414,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EconVisualizer/econ_visualizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EconVisualizer/visualizer_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#1#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_visualizer_utilities.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="396">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EconVisualizer/tests/test_econ_visualizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
+        <state relative-caret-position="1386">
           <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2008.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2009.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2010.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2011.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2007.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/histogram of incomes from year 2012.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2010.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2011.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2008.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2009.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2007.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot of incomes from year 2012.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

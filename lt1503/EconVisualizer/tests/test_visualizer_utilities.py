@@ -12,6 +12,8 @@ class TestVisualizerUtilities(unittest.TestCase):
 
     def test_graph_income(self):
 
+        graph_income(self.income, 2008, visualize=False)
+
         with self.assertRaises(TypeError):
             graph_income(self.income, 'year')
         with self.assertRaises(TypeError):
@@ -23,7 +25,7 @@ class TestVisualizerUtilities(unittest.TestCase):
 
     def test_merge_by_year(self):
 
-        merged_df = merge_by_year(self.income, self.countries, 2010)
+        merge_by_year(self.income, self.countries, 2010)
 
         with self.assertRaises(TypeError):
             merge_by_year(self.income, self.countries)

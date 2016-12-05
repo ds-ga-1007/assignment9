@@ -13,11 +13,13 @@ if __name__ == '__main__':
         income = pd.read_excel('../indicator gapminder gdp_per_capita_ppp.xlsx', index_col = 0).transpose()
     except FileNotFoundError:
         raise FileNotFoundError("countries.csv and indicator gapminder gdp_per_capita_ppp.xlsx need to be in the parent directory")
-        
+
+    prompt = "What year would you like to see? Finish to complete report, ctrl+c or ctrl+d to exit\n"
     while True:
 
         try:
-            user_input = input("What year would you like to see? Finish to complete report, ctrl+c or ctrl+d to exit")
+
+            user_input = input(prompt)
 
         except KeyboardInterrupt:
             # Exit if the user enters Ctrl+C
@@ -33,17 +35,17 @@ if __name__ == '__main__':
         try:
             year = int(user_input)
         except ValueError:
-            print("year must be an integer")
-        else:
-            # Raises a ValueError and loops back if user_input is not correctly structured
-            # as a sequence of intervals
-            merged_df = merge_by_year(income, countries, year)
+            print("year must be an integer. Try again?")
+            continue
 
         try:
             graph_income(income, year)
 
-        except:
+        except ValueError:
             print('year ' + str(year) + " not in range. Try again?")
+
+        except TypeError:
+            print('year must be int-like. Try again?')
 
     #Here out of the while loop, the user had to exit the while loop by typing Finish.
     #Now we generate graphs for the years 2007-2012.

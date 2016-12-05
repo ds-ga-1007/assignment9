@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def graph_income(income, year):
+def graph_income(income, year, visualize=True):
     """
     Graphs income for a given year in a histogram
     :param income: pandas.DataFrame of income values.
@@ -21,7 +21,8 @@ def graph_income(income, year):
 
     incomes_at_year = income.ix[year ,:]
     incomes_at_year.hist()
-    plt.show()
+    if visualize == True:
+        plt.show()
 
 def merge_by_year(income, countries, year):
     """
