@@ -1,0 +1,6 @@
+First, there seems to be a difference in income per person between the different regions: Specifically, it can be observed that Europe has the highest income per person, where as Africa has the lowest income per person, throughout time. 
+
+Secondly, income per person changes in different directions depending on region: Specifically, Oceania and Europe experience an decrease, whereas Asia and South America experience an increase.  
+
+Finally, in terms of variation within regions, Europe and Asia have the highest range in income per person.
+
