@@ -5,18 +5,18 @@ from income.distribution import IncomeDistribution
 from income.exceptions import *
 
 ### Helper functions to prompt and handle user input of year
-def quitting_input(prompt):
+def quitting_input(prompt, input_function = input):
     '''
     Program exits if user types "finish," which raises QuitError
     '''
-    userinput = input(prompt)
+    userinput = input_function(prompt)
     
     if userinput == "finish":
         raise QuitError()
     
     return userinput
-
-def prompt_for_year(income):
+    
+def prompt_for_year(income, input_function = input):
     '''
     Prompt user for year. Repeats prompt until "finish" is entered.
     @param income: income DF containing data from the year specified
@@ -25,7 +25,7 @@ def prompt_for_year(income):
     
     while True:
         try:
-            userinput = quitting_input("Please enter a year or 'finish' when you are done.")
+            userinput = quitting_input("Please enter a year or 'finish' when you are done.", input_function)
             return validate_year(userinput, income)
             
         except InvalidYearError as e:
