@@ -113,6 +113,7 @@ def read_gapminder(verbose=False) -> pd.DataFrame:
         print("Successfully read GapMinder data set:")
         print("-" * 40)
         print(transposed.head())
+        print("-" * 40)
 
     # Return transposed data set.
     return transposed
