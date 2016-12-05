@@ -1,12 +1,15 @@
 import sys
 from EconVisualizer import *
 
+'''
+Main algorithm of economic data visualization. First query the user for
+individual years to graph. Upon receiving word finish,
+create standardized graphs showing years 2007-2012
+ctrl+c or ctrl+d to exit without saving output graphs to file.
+'''
 if __name__ == '__main__':
     '''
-    Main algorithm of economic data visualization. First query the user for
-    individual years to graph. Upon receiving word finish,
-     create standardized graphs showing years 2007-2012
-     ctrl+c or ctrl+d to exit without saving output graphs to file.
+    read in country and income data
     '''
     try:
         countries = pd.read_csv('../countries.csv')
@@ -16,7 +19,7 @@ if __name__ == '__main__':
 
     prompt = "What year would you like to see? Finish to complete report, ctrl+c or ctrl+d to exit\n"
     while True:
-
+        '''Repeatedly query the user for years to graph income data about'''
         try:
 
             user_input = input(prompt)
@@ -47,10 +50,13 @@ if __name__ == '__main__':
         except TypeError:
             print('year must be int-like. Try again?')
 
-    #Here out of the while loop, the user had to exit the while loop by typing Finish.
-    #Now we generate graphs for the years 2007-2012.
+    """
+    Here out of the while loop, the user had to exit the while loop by typing Finish.
+    Now we generate graphs for the years 2007-2012.
+    """
     ev = EconVisualizer(income, countries)
     ev.graph_years(list(range(2007, 2013)))
+    print("Report completetd. See boxplots and histograms of reported data")
 
             
             

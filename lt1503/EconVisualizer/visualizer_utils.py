@@ -36,6 +36,7 @@ def merge_by_year(income, countries, year):
 
     if not isinstance(income, pd.DataFrame) or not isinstance(countries, pd.DataFrame):
         raise TypeError("income and countries must be pandas DataFrames")
+
     try:
         year = int(year)
     except ValueError:

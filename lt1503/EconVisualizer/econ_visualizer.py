@@ -47,9 +47,6 @@ class EconVisualizer(object):
 
             merged_df = merge_by_year(self.income, self.countries, year)
 
-            #for region in merged_df['Region'].unique():
-            #    region_df = merged_df[merged_df['Region']==region,:]
-            #    region_df.year = year
             self._box(merged_df, visualize = False)
             self._hist(merged_df, visualize = False)
             

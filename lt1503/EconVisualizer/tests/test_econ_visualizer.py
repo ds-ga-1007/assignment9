@@ -8,7 +8,8 @@ class TestEconVisualizer(unittest.TestCase):
     def setUp(self):
 
         self.countries = pd.read_csv('../countries.csv')
-        self.income = pd.read_excel('../indicator gapminder gdp_per_capita_ppp.xlsx', index_col = 0).transpose()
+        self.income = pd.read_excel('../indicator gapminder gdp_per_capita_ppp.xlsx',
+                                    index_col = 0).transpose()
 
         self.merged_df = merge_by_year(self.income, self.countries, 2010)
 
