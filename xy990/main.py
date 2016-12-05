@@ -3,6 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from analysis import *
 
+#Provide a main function that the user can input a year to get plots.
+#When the user input a year from 1800 to 2012, it plot a histogram of income per capita in different countries.
+#When the user input "finish", the it plots histograms and boxplots of income per capica in different regions from 2007 to 2012.
+#When the user input a year is not between 1800 to 2012, then it raise inputerror. 
 def main():
     countries = pd.read_csv("C:/Users/sherryyang/assignment9/countries.csv")
     income =pd.read_csv("C:/Users/sherryyang/assignment9/indicator gapminder gdp_per_capita_ppp.csv",index_col =0)
