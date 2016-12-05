@@ -1,9 +1,11 @@
 
 class PlotError(Exception):
+    """Base Plot error class"""
     pass
 
 
 class MissingFileError(PlotError):
+    """Raised when unable to find required file in local directory."""
 
     def __init__(self, file_name):
         self.file_name = file_name

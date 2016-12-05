@@ -1,9 +1,11 @@
 
 class UserError(Exception):
+    """Base User error class."""
     pass
 
 
 class InvalidPlotTypeError(UserError):
+    """Raised when invalid plot type specified."""
 
     def __init__(self, plot_as):
         self.attempted_as = plot_as
@@ -14,6 +16,7 @@ class InvalidPlotTypeError(UserError):
 
 
 class InvalidPlotYearException(UserError):
+    """Raised when invalid plot year specified."""
 
     def __init__(self, proposed_year):
         self.year = proposed_year
@@ -24,6 +27,7 @@ class InvalidPlotYearException(UserError):
 
 
 class InvalidYearError(UserError):
+    """Raised when invalid year offered as user response."""
 
     def __init__(self, proposed_year):
         self.year = proposed_year
