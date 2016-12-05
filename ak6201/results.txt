@@ -1,0 +1,9 @@
+There is not much change for all the regions from the year 2007 to 2012. For instance:
+
+1) From 2007 to 2008, only Europe changes by a small margin. It decreases a bit which causes reduction in mean and medain and seen in the boxplots. 
+2) From 2008 to 2009, slight decrease again in the value of European countries. Other countries don't change much.
+3) From 2009 to 2010, North American and European countries income value drop slightly, whereas Asian countries gsp increases.
+4) From 2010 to 2011, again North American and European countries income values decreases. This indicates that there must have been some crises during 2008 to 2011 in Europe.
+5) From 2011 to 2012, the reverse occurs. North American and European countries income values increases as ssen in the histogram. Whereas, the income values for Oceania decreases. 
+
+On average, Southe American countries have been successful in keeping the gdp per capita stable over the 5 years period, while there has been fluctuations in the other countries.
