@@ -1,0 +1,18 @@
+Regional Differences
+In North America, there are two countries with consistently higher GDP per capita than the others, likely the US and Canada.
+In Asia, there’s one outlier at close to $90k GDP per capita with most other countries densely concentrated on the left hand side of the graph
+Oceania has fewer countries than the other regions, so the distribution sometimes fluctuates a bit more randomly since a single country’s economy can have a bigger impact on the distribution overall.
+South America is close to uniformly distributed in many years.
+Africa is densely concentrated at less than $2k per capita, with some countries closer to $17k per capita.
+
+Trends Over Time
+From 2007 to 2012
+Many countries in South America experienced growth in their GDP per capita. In 2007, many countries had a GDP per capita of less than $4k. In 2012, all countries had a GDP per capita of at least slightly over $4k. In 2007, the wealthiest country had a GDP per capita of less than $14k, but in 2007, the wealthiest countries made almost $16k per capita.
+Europe’s distribution shifted a bit. In 2007, there was an extremely high outlier which disappeared or came closer to typical values by 2012. In 2012, the mean was more squarely centered within the range of GDPs per capita whereas in 2007, the distribution was more skewed.
+Europe also showed a slow, mixed, or nonexistent recovery from the recession. The median GDP per capita in 2012 was still lower than in 2007.
+
+From 2007 to 2009
+Between 2007 and 2009, it’s easiest to see the change in Europe’s distribution, where the distribution skews slightly with more countries falling under $40k per capita.
+
+From 2008 to 2012
+Oceania’s distribution compressed from 2008 to 2012 with many countries that were wealthier than Oceania’s average falling closer to the average.
