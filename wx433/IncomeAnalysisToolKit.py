@@ -58,14 +58,6 @@ class IncomeAnalysisToolKit():
 	    pdf_file_box.close()
 
 
-a = pd.read_csv('countries.csv',index_col = 0, header = 0)	
-b = pd.read_excel('indicator gapminder gdp_per_capita_ppp.xlsx',index_col = 0, header = 0).transpose()
-
-
-
-target = IncomeAnalysisToolKit(a, b)
-target.income_cross_region(2007)
-
 
 
 
