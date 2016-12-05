@@ -47,7 +47,7 @@ class TestEconVisualizer(unittest.TestCase):
 
         with self.assertRaises(TypeError):
             ev._hist(10, visualize=False)
-        with self.assertRaises(KeyError):
+        with self.assertRaises(ValueError):
             ev._hist(df=self.countries, visualize=False)
 
     def test_bar(self):
