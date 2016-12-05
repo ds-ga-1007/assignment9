@@ -1,0 +1,5 @@
+1,From 2007 to 2012, we could observe that Africa is still the poorest region over the world.
+2,From 2007 to 2012, we could observe the avergae income in South America increases the most from under 8000 to above 8000.
+3,From 2007 to 2012, we could observe average income in North American, Oceania stay fairly stable.
+4,From 2007 to 2012, Europe is the richest region with highest average income.
+5,From 2007 to 2012, Average income in Asia increases as well.
