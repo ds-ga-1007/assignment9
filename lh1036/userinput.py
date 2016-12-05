@@ -25,11 +25,11 @@ def prompt_for_year(income, input_function = input):
     
     while True:
         try:
-            userinput = quitting_input("Please enter a year or 'finish' when you are done.", input_function)
+            userinput = quitting_input("Please enter a year or 'finish' when you are done. After viewing a graph, close it to proceed.", input_function)
             return validate_year(userinput, income)
             
         except InvalidYearError as e:
-            print(e, " Please enter a year or 'finish' when you are done.")
+            print(e)
 
 def validate_year(input_year, income):
     '''

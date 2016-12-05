@@ -18,7 +18,9 @@ class IncomeDistribution(object):
     
     def plot_world_income_for_year(self):
         '''
-        Question 4: Return bar graph of each country's income/pc for a given year
+        Question 4: Return bar graph of every country's income/pc for a given year
+        Note: According to the instructions, every country should appear on a single graph.
+        I suppress the labelling of countries because 200+ countries on a single graph would be unreadable.
         '''
         year_plot = self.data.plot(kind = "barh", title = "Distribution of Income in the World in {}".format(self.year))
         year_plot.set_xlabel("Income")
