@@ -22,7 +22,7 @@ class data_analysis:
         region_label = region_gdp.index.tolist()
         plt.hist(region_gdp, label=region_label)
         plt.legend(loc = 'best')
-        plt.title("Histogram of distribution of the income per person by region in " + str(year_number))
+        plt.title("Histogram of distribution of people income by region in " + str(year_number))
         plt.xlabel('Income per person')
         plt.ylabel('')
         plt.savefig('Histogram of income in ' + str(year_number))
@@ -34,7 +34,7 @@ class data_analysis:
         """
         year_number = self.year
         self.merged_data.boxplot('Income', by = 'Region')
-        plt.title("Boxplot of distribution of the income per person by region in " + str(year_number))
+        plt.title("Boxplot of distribution of people income by region in " + str(year_number))
         plt.xlabel('Continent')
         plt.ylabel('Income per person')
         plt.savefig('Boxplot of income in ' + str(year_number))

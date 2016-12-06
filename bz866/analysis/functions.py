@@ -30,7 +30,8 @@ def merge_by_year(year, countries, income):
 
 def show_distribution(income, year):
     '''show distribution figure in a new window according Users' input'''
-    income[year].dropna().plot(kind = 'hist')
+    plot_data = income[year].dropna()
+    plot_data.plot(kind = 'hist')
     plt.title("Histogram of graphically distribution of the income per person in " + str(year))
     plt.xlabel('Income per person')
     plt.ylabel('Count')
