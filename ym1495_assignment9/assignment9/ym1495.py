@@ -22,14 +22,15 @@ def main():
                 if year not in Dataframes.income.index:
                     raise invalid_input()
                 else: 
-                    overall_income_distr(Dataframes.income,year)
+                    #overall_income_distr(Dataframes.income,year)
                     continue
-        except invalid_input():
+                continue
+        except invalid_input:
             print("Invalid input, please try again")
-            pass
+            continue
         except ValueError as ex:
             print("It's not an integer, Please check your input, and type a four digit year, or end with finish")
-            pass
+            continue
         except KeyboardInterrupt:
             sys.exit(0)      
         except EOFError:

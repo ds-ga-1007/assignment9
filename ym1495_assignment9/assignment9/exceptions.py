@@ -4,14 +4,10 @@ Created on Dec 5, 2016
 @author: muriel820
 '''
 
-class invalid_input(Exception):
-    '''
-    classdocs
-    '''
-    def __init__(self):
-        print "Invalid Year Input! It should fall in the list of years\n"
-        pass
-'''    def __str__(self):
-        print "Invalid Year Input! It should fall in the list of years\n"
-'''
-        
+class MyError(Exception):
+    '''Superclass of Exceptions'''
+    pass
+class invalid_input(MyError):
+    def __str__(self):
+        return 'Invalid Year Input! It should fall in the list of years\n'
+    
