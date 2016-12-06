@@ -16,16 +16,20 @@ def main():
         try:
             year = input('Please enter a four digit year in the past or end with finish')
             if year.lower()=='finish':
-                continue
+                break
             else: 
                 year = int(year)
                 if year not in Dataframes.income.index:
                     raise invalid_input()
                 else: 
                     overall_income_distr(Dataframes.income,year)
+                    continue
         except invalid_input():
             print("Invalid input, please try again")
-            continue
+            pass
+        except ValueError as ex:
+            print("It's not an integer, Please check your input, and type a four digit year, or end with finish")
+            pass
         except KeyboardInterrupt:
             sys.exit(0)      
         except EOFError:
@@ -33,10 +37,10 @@ def main():
             
         for year in range(2007,2013):
             merged_data =  merge_by_year(Dataframes.income, Dataframes.countries,year)
-            data_to_Plot = plotting_functions(merged_data, year)
+            data_to_plot = plotting_functions(merged_data, year)
             data_to_plot.histogram()
             data_to_plot.boxplot()
         sys.exit()
         
 if __name__ == '__main__':
-    pass
+    main()

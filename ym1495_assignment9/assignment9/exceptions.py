@@ -8,7 +8,10 @@ class invalid_input(Exception):
     '''
     classdocs
     '''
-    def __repr__(self, params):
-        return "Invalid Year Input!\n"
-
+    def __init__(self):
+        print "Invalid Year Input! It should fall in the list of years\n"
+        pass
+'''    def __str__(self):
+        print "Invalid Year Input! It should fall in the list of years\n"
+'''
         
