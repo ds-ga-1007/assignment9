@@ -1,0 +1,4 @@
+From 2007 to 2013, we can see that Africa continent is quite stable with the lowest GDP.
+While South America has a stable growth. 
+Also we can see that Oceania countries has a sudden drop of mean and upper outlier of GDP in 2012, we could guess that it's Australia, who has the highest GDP and also most influential in Ocieania, especially in terms of GDP.
+Meanwhile, Asia, other than the outlier: a developed country Japan, is growing really slowly.
