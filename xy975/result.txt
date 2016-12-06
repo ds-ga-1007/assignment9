@@ -1,0 +1,7 @@
+From the boxplot we can know that in general GDP per person (PPP) of all countries
+keep growth during 2007-2008 and 2009-2012. During 2008-2009, data decrease 
+slightly, perhaps because of the financial crisis. We can also confirm it by the
+histogram.
+
+The Europe has the highest PPP in average, while the Africa has the lowest. The Asia
+ group has the greatest variance.
