@@ -25,13 +25,13 @@ def main():
                     
             if (str_year == 'finish'):
                 sys.exit()
-            
+                
             year = int(str_year)
-
             if (1800 <= year and year <= 2012):
                 show_distribution(income, year)
             else: 
                 raise ValueError
+            
         except ValueError:
             print('Invalid year number')
         except KeyboardInterrupt:

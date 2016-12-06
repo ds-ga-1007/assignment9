@@ -15,25 +15,27 @@ class data_analysis:
         
     def histogram(self):
         """
-        This method use the merged_data to group by region, and then draw the histogram and save those graphs.
+        draw histogram 
         """
+        year_number = self.year
         region_gdp = self.merged_data.groupby('Region').Income.apply(list)
         region_label = region_gdp.index.tolist()
         plt.hist(region_gdp, label=region_label)
         plt.legend(loc = 'best')
-        plt.title("Histogram of distribution of the income per person by region in " + str(self.year))
+        plt.title("Histogram of distribution of the income per person by region in " + str(year_number))
         plt.xlabel('Income per person')
         plt.ylabel('')
-        plt.savefig('Histogram of income in ' + str(self.year))
+        plt.savefig('Histogram of income in ' + str(year_number))
         plt.close()
 
     def boxplot(self):
         """
-        This method use the merged_data to group by region, and then draw the boxplot and save those graphs.
+        draw boxplots
         """
+        year_number = self.year
         self.merged_data.boxplot('Income', by = 'Region')
-        plt.title("Boxplot of distribution of the income per person by region in " + str(self.year))
+        plt.title("Boxplot of distribution of the income per person by region in " + str(year_number))
         plt.xlabel('Continent')
         plt.ylabel('Income per person')
-        plt.savefig('Boxplot of income in ' + str(self.year))
+        plt.savefig('Boxplot of income in ' + str(year_number))
         plt.close() 
