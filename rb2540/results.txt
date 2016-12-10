@@ -1,0 +1,3 @@
+The “low income histograms” show us the number of countries that had a per capita GDP of less than 3000. This can be used as an indicator of poverty. in 2011 the number of countries with per capita GDP less than 3000 dropped significantly in both Africa and Asia. However, in 2012 the number of countries in Africa rose again while Asia continued to decrease. Also in 2012, the number of countries with GDP per capita less than 3000 decreased in North America.
+
+Looking at the boxplots of income, two years stand out. In 2009, incomes seem to be slightly lower across most regions. In 2012, the mean and interquartile range for Oceania decreased. The mean income in Europe also decreased in 2012. 
