@@ -1,0 +1,10 @@
+From the histograms, we see that Africa has lowest income per capita, and Europe has highest
+income per capita from 20017 to 2012. For Asia, there is no much change in low income per capita, 
+but high income per capita increases over time. This means that some Asian countries get richer and 
+more developed during 2007 to 2012. The max of income per capita for Asia is almost 
+the same as the max of income per capita for Europe in 2012.
+
+From the boxplots, we can tell that Africa has lowest average income per capita all the time. Average
+income per capita for Asia increases every year, and Asia has largest deviation and outliers. Europe 
+keeps having highest average income per capita over these 5 years, also it has extreme outliers. The other 
+three regions' income distributions are relatively stable.
