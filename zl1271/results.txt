@@ -1,0 +1,9 @@
+No obvious changes over the time period (2007 - 2012) were found by me. However, here are some observations:
+
+1. From the histograms, it is obvious that most regions (all except South America) had a positively skewed income per person distribution, i.e., there are more countries with low income than countries with high income. This suggests that within every region, income was not equally distributed.
+2. However, while the distribution for South America is less skewed and more equally distributed, it can be seen from the boxplots that South America had a very low media and a very narrow range and no outliers. This means that the incomes per person in all South America were all very low.
+3. From the boxplots:
+   1. Europe always had the highest median, suggesting that it is the richest region. However, the range (excluding the outliers) was also the largest, suggesting that Europe had the largest within region variation. This is consistent with the common sense that Europe has the most developed countries.
+   2. Asia had the second largest range but a much lower median than Europe. This suggests that Asia also had a large within region variation but is poorer than Europe. This is consistent with the common sense that Asia has many developing countries, as well as quite a few developed countries.
+   3. For the other regions, Africa had the lowest median, but its many outliers are higher than or about the same as the medians for all other regions except Europe. This means that although Africa is the poorest region, many countries in the region are about average if they were located in another region.
+   4. If the outliers in North America (probably the US and Canada) and Oceania (probably Australia and New Zealand) were excluded, the two regions seemed to be similar to Africa. This is consistent with the common sense that the above mentioned countries are the only developed countries in these region.
