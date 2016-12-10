@@ -1,0 +1,1 @@
+After checking the histogram and boxplot from year 2007 to 2012, I find that the average personal income does not change too much in these six regions. Moreover, the average personal income is much higher in Europe and the variance is relatively small in America and Africa. Generally speaking, the average personal income is very stable in these six regions from 2007 to 2012.
