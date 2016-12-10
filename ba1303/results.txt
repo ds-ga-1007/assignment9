@@ -1,0 +1,13 @@
+Trends in GDP per Capita from 2007-2012
+
+Africa: Incomes in Africa remained largely stagnant from 2007-2012. The median and 25th percentile rose very, very slightly, but overall, this was a disappointing stretch for Africa.
+
+Asia: Incomes in Asia slowly increased across the board. From 2007-2012, the 25th percentile, median, and 75th percentile for GDP per capita edged upward. The shape of the distribution remains skewed to the right (the mean is above the median). 
+
+Europe: Incomes in Europe mostly fell from 2007-2012. In particular, the 75th percentile and median decreased significantly, perhaps in response to the financial crisis. The 25th percentile, however, actually increased slightly. As a result, the interquartile range (IQR) is much smaller in 2012 than in 2007, suggesting that the "income gap" between the wealthy and poor nations of Europe has narrowed.
+
+North America: Incomes in North America experienced a similar trend as Europe. The 25th percentile did not budge, but the 75th percentile dropped (probably due to the financial crisis). As a result, the IQR range is much narrower, suggesting that (with the exception of the two outliers USA and Canada) the gap between the wealthy and poor nations is smaller than before. The 75th percentile briefly rebounded from 2011 to 2012.
+
+Oceania: Incomes in Oceania struggled during this time period. In particular, the 75th percentile dropped significantly in two years (in 2009 and in 2012). Interestingly, in 2012, when the 75th percentile plunged, the two high outliers (presumably Australia and New Zealand) actually increased! From 2007-2012, the median and 25th percentile stayed relatively constant. As such, if you ignore Australia and New Zealand, the gap between wealthy and poor nations became smaller.
+
+South America: Incomes in South America slowly increased across the board. From 2007-2012, the 25th percentile, median, and 75th percentile for GDP per capita edged upward. The shape of the distribution of incomes became slightly more symmetric as well. 
