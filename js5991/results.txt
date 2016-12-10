@@ -1,0 +1,7 @@
+Based on the boxplots, the following changes were observed over 2007 to 2012 period:
+1)Despite the fact that the spread of income levels (difference between Q1 and Q3) in Europe had been the largest compared to the other region, its spread decreased over the period.
+The spread of income levels in North America and Oceania decreased as well. On the other hand, the spread of income level increased in Asia over the period. The spreads in the other regions wasn't very significant. 
+2)The means of income levels in Africa, Asia, and South America increased over the period, while those decreased significantly in Europe.They stayed relatively constant in the other regions. 
+3)The highest income nation's income in Asia increased significantly while the highest income nation's income in Europe decreased. By 2012, the highest income nation's income level in Asia exceed that in Europe. 
+
+We can also see the above changes from the histograms. In addition, even though income levels were still very skewed in Afria and Asia, they became less skewed over the period. 
