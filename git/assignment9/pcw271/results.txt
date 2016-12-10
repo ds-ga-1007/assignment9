@@ -1,0 +1,6 @@
+From the result of the income from year 2007 to 2012, the Africa constantly got low income through the time. Most of the countries got income in the lowest section.
+In Asia, the highest income shifted to the right(40000 to 60000), but the low income number of countries stay the same, which means the poor country stay poor, but the high income countries in Asia are getting richer.
+In Europe, in year 2007, we can see the one rich country over 70000 income, but when time grows to 2012, this rich country shift to the income section below 50000, the countries with income over 40000 is about 8, but in 2012, the countries with income over 40000 only left 2. Europe is generally decreasing the income through all countries.
+In North America,in 2007 one county got highest income about 38000, other countries generally below 20000, but in 2012, we can see the gap between high income and low income section is getting bigger.The highest income country increase to income 39000, lower income countries stay the same.
+In Oceania, from 2007 to 2012, the income of every country does not change much.
+So does the South America, the income from 2007 to 2012 does not change much, the pattern shifted to right about 2000 in income, generally below 18000.

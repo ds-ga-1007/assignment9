@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="static/assets/css/main.css" />
+<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<h1><a href="home.html">let's cook</a></h1>
+                                {% for recipe in recipies %}
+                                <h2>{{ recipe.name }}</h2>
+
+                                {% endfor %}
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="home.html">Home</a></li>
+									<li><a href="#about">About</a></li>
+									<li><a href="#testimonials">Testimonials</a></li>
+									<li><a href="login.html">Login</a></li>
+								</ul>
+							</nav>
+
+						<!-- Banner -->
+							<section id="banner">
+								<header>
+									<h2>It is time to cook!</h2>
+									<p>Link up and cook!</p>
+								</header>
+							</section>
+
+						<!-- Intro -->
+							<section id="intro" class="container">
+								<div class="row">
+									<div class="4u 12u(mobile)">
+										<section class="first">
+											<a href="login.html" target="_blank"><i class="icon featured fa-cog"></i></a>
+											<header>
+												<h2>Login</h2>
+											</header>
+											<p>Access your profile and inventory!</p>
+										</section>
+									</div>
+									<div class="4u 12u(mobile)">
+										<section class="middle">
+											<a href="beverage_list.html" target="_blank"><i class="icon featured alt fa-flash"></i></a>
+											<header>
+												<h2>Beverages</h2>
+											</header>
+											<p>Take a tour of our recipes! </p>
+										</section>
+									</div>
+									<div class="4u 12u(mobile)">
+										<section class="last">
+											<a href="review_list.html" target="_blank"><i class="icon featured alt2 fa-star"></i></a>
+											<header>
+												<h2>Reviews</h2>
+											</header>
+											<p>Read all reviews! </p>
+										</section>
+									</div>
+								</div>
+								<footer>
+									<ul class="actions">
+										<li><a href="register.html" target="_blank" class="button big">Register</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="12u">
+
+
+								<!-- Testimonials -->
+									<section id ="testimonials">
+										<header class="major">
+											<h2>Testimonials</h2>
+										</header>
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/thedude.png" alt="" /></a>
+													<header>
+														<h3>The Dude Abides...by HappyOur</h3>
+														<p>Posted 45 minutes ago</p>
+													</header>
+													<p>This app is a game changer! Hey man, I don't usually write these things...or do much of anything, other than, like, go bowling and enjoy some lighthearted hijinx. But, I just gotta say that this app helps me keep my eye on the prize of just the right Vodka to include in my all-time favorite drink. I've tried them all...sometimes all at once...and man, I'm lucky this app is around. </p>
+														<ul class="actions">
+															<li><a href="register.html" target="_blank" class="button icon fa-file-text">Register</a></li>
+															<li><a href="login.html" target="_blank" class="button alt icon fa-comment">Login</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="6u 12u(mobile)">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/startrek.jpg" alt="" /></a>
+													<header>
+														<h3>Future Housewife of Space the Final Frontier</h3>
+														<p>Posted 23 minutes ago</p>
+													</header>
+													<p>Wow! I'm so thrilled to have found this incredible tool! I've had my fair share the recipe of Thai Curry, and now I know which absolutely takes the cake!</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="register.html" target="_blank" class="button icon fa-file-text">Register</a></li>
+															<li><a href="login.html" target="_blank" class="button alt icon fa-comment">Login</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<section id="footer" class="container">
+						<div class="row">
+							<div class="8u 12u(mobile)">
+								<section>
+									<header>
+										<h2>Recent Updates</h2>
+									</header>
+									<ul class="dates">
+										<li>
+											<span class="date">Aug <strong>5</strong></span>
+											<h3><a href="#">New Recipe</a></h3>
+											<p>Added Bombay Sapphire</p>
+										</li>
+										<li>
+											<span class="date">Aug <strong>4</strong></span>
+											<h3><a href="#">New Recipes</a></h3>
+											<p>Added Corona</p>
+										</li>
+										<li>
+											<span class="date">Aug <strong>3</strong></span>
+											<h3><a href="#">New Users</a></h3>
+											<p>9 New Accounts Created</p>
+										</li>
+										<li>
+											<span class="date">Aug <strong>2</strong></span>
+											<h3><a href="#">New Reviews</a></h3>
+											<p>2 New Reviews Added</p>
+										</li>
+										<li>
+											<span class="date">Aug <strong>1</strong></span>
+											<h3><a href="#">New Beverage</a></h3>
+											<p>Added Ballast Point Grapefruit Sculpin</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section id="about">
+									<header>
+										<h2>Who are the minds behind...</h2>
+									</header>
+									<a href="#" class="image featured"><img src="/static/images/legoteam.jpg" alt="" /></a>
+									<p>
+										<strong>Let's cook!</strong> is a proof-of-concept app designed to help users find the recipe they need for cook. It was created by
+										a super cool motley crew of novice coders. It's a work in progress, so please let us know your thoughts and recommendations!
+
+									</p>
+									<footer>
+										<a href="mailto: payjin@gmail.com" class="button">Send Feedback</a>
+									</footer>
+								</section>
+							</div>
+						</div>
+
+
+						</div>
+						<div class="row">
+							<div class="12u">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Let's cook. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</section>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
