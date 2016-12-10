@@ -1,0 +1,15 @@
+From the boxplots we can see that over the years European countries have kept the highest average 
+income per capita among all regions but with the trend of decreasing from 2007 to 2012. North 
+American countries have slightly increased their income per capita with small shrinking of the 
+variation. Oceanian and South American countries have almost kept the same about their income per 
+capita and also with shrinking variations. African countries have remained the lowest income per 
+capita among all regions with little change during the years. Asian countries have changed little 
+on the average income per capita but the third quantile have raised during the years, indicating 
+that the income of the most wealthy countries have increased.
+
+From the histograms we can find out that over the years European countries have decreased their 
+average income per capita with a decreasing variation, while Asian countries have increased their 
+income variations although most countries have remained low income per capita over the years. Other 
+regions have almost remained the same during the years, with African countries having the lowest 
+average income and Oceanian, South American and North American countries having similar variations 
+of income per capita.
