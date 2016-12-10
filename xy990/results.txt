@@ -1,0 +1,4 @@
+1.In general, from the histograms of the income per capita in different areas, we can see African remains the poorest from 2007 to 2012. Some Asian become richer, but most of Asian still remain poor. In general, the European people are the richest, but in 2012, there are
+less European people remain rich.
+2. From the Boxplots of the income per capita in different areas, in general, the income per capita in Afria is very low and has very small variation, the income per capita in Europe is very high and has large variation. From 2007 to 2012, the income per capita in Africa remains
+low, and the income in Europe decreases and the variation becomes smaller, the income in Asia increases a little but the variation becomes large, and some Asian becomes rich. The other areas do not change a lot.
