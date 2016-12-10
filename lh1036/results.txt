@@ -1,0 +1,14 @@
+Leslie Huang (lh1036)
+Programming for Data Science
+Assignment 9
+December 5, 2016
+
+Question 9:
+
+Over the period of 2017-2012, the following changes occurred:
+
+- There is increasing dispersion of income in some regions -- i.e. the gap between the richest and poorest countries is not always getting smaller. Looking at the boxplots, across all regions, there is an overall increasing trend in median income. However, in some regions the middle 50% (25th to 75th percentile) narrowed -- became more tightly clustered near the median -- while in other regions the middle 50% widened. This means there is not a conclusive trend across all regions in increasing/decreasing inequality. In Asia, for instance, the outliers with high income/pc saw large gains, but in Africa, the outliers stayed relatively constant across the period.
+
+- Income per capita did not increase in each country each year. For example: looking at the distribution of income within regions, we can see that in South America almost every country's income/pc increased each year except for in 2010, when the income was less tha in 2009. This suggests a financial crisis. In North America, the overall change from 2007 to 2012 was negative for many countries but there was a positive trend for others: for instance Panama's income/pc increased but the Bahamas' decreased.
+
+- Looking at the distribution of countries across income levels within a region, there are not any significant changes in some regions. For example, in Africa, the most frequently occurring income bin was the lowest one, and this did not change over 2007-2012. However, over this period, some countries did move into higher income bins.
