@@ -1,0 +1,19 @@
+Looking at the histograms for different years you can observe that the pattern of histograms generally remains
+the same through the years 2007-2012. There was the housing crisis around 2008-2009 and the income-per-person goes down
+during that time period. But after the crisis the values regress back to their earlier state.
+The number of countries with low income-per-person is higher in Africa and Asia region as compared to other
+regions. From the histograms you can observe that Europe has the highest set of income-per-person
+with most of the countries around 30000. North America comes in second with many countries around 12000.
+Asia and Africa have the lowest set of income-per-person with most of the countries having income-per-person
+around 8000. South America has a relatively wide deviation in income-per-person (compared to Africa, Asia)
+and same is the case with Oceania. The number of countries present in the Oceania region is quite low.
+
+Over the years income-per-person for Africa, Asia and South America increases because these regions have a higher
+number of developing countries. For Europe and North America the income-per-person goes down during the time
+of housing crisis. For these regions the maxium income-per-person was in the year 2008.
+
+If you look at the boxplots you can observe that the range of deviation for income per person is maximum in Europe
+and smallest in Africe. A general rule of thumb here is that as income-per-person increases the deviation
+also increases. Over the years the range of income-per-person roughly remains the same across all the regions
+but you can observe that the deviation for the richer regions (specially Europe) comes down near 2012.
+This might be a result of the housing crisis, it's repercussions and steps taken to redistribute wealth.
