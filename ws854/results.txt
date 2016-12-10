@@ -1,0 +1,5 @@
+It seems that in that IQR got smaller especially in Europe. Also, the outlier in Europe also dropped back to below 80k.  
+
+On the other hand, Asia and Africa seemed to have an increase over the years and the outlier in Asia increased over the year. 
+
+Median in N. America was stable over the years, but the IQR got much smaller. 
