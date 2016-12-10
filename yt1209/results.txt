@@ -1,0 +1,4 @@
+From 2007 to 2012, the average income per person didn't vary much.
+From Histogram, the distribution of income per capita across all regions are all positively skewed, with high density in low income groups, and low density in high income groups
+From boxplots, Europe and Asia have the largest maximum difference
+To better compare the trend for each region in the past several year, line chart for income per capita will be better.
