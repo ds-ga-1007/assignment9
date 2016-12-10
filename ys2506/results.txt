@@ -1,0 +1,8 @@
+# Solution for DS-GA 1007 Assignment#9
+# Author: Yanan Shi y2506 N11812897
+#Visually inspect the graphs generated in question 8 and write a short description of the changes you observe over the period. Place your description in a file called results.txt and add this to the repository.
+
+These graphs shows The distributions are positively skewed. Over the six years, for many regions, the ratio of high income people is very small. However, there are some countries like South America where has high ratio of high income people. 
+Also, we could find that Europe has the highest median income per person while Africa has the lowest. 
+
+
