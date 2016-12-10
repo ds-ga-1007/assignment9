@@ -1,0 +1,4 @@
+From the graphs generated, we can see, Europe has the highest median income per person, while Africa has
+the lowest. But the income per person of Asia is increasing in 2007-2012, which is decreasing in Europe.
+The income is roughly stable in North America, South America and Oceania. Africa's income per person stays 
+in a low level without obvious changes.
