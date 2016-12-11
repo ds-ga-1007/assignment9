@@ -1,0 +1,20 @@
+'''
+@author: Xianzhi Cao (xc965)
+'''
+
+Regional Income Analysis
+-------------
+
+From the year 2007 to 2012, significant variations can hardly be observed from the general distributions across all countries. The relative pattern of regional incomes is always led by Europe and reared with Africa. The distributions of GDP per capita across all regions, as has been presented in histograms, are always positively skewed, with high density in low income groups (left side) and low density in high income groups (right side), which is mainly influenced by African, Oceanian and South African countries.
+
+  - Africa: Income level in Africa has been relatively stable, except for a slight drop between 2010 to 2011.
+
+  - Asia: After experiencing a mild income recess in some countries during the global financial crisis, income level in Asia has presented a steady recovery trend after 2009. Specifically, the country with the highest purchasing power parity in Asia, Qatar, has presented significant increments starting from 70k in 2007 to 90k in 2012.
+
+  - Europe: The sizes of boxplots have been shrinking mildly, showing that the gap of wealth in Europe has become slightly narrower. Although suffered by the financial crisis in 2008, most countries reached their income peaks in 2011, followed by a recess in 2012.
+
+  - North America: The income levels of North American countries have shown a declining fashion. However, those in low income countries have been constantly improved.
+
+  - Oceania: The overall income distribution has not varied much, except for a recess at the end of the period.
+
+  - South America: The income levels have been steadily improved, with more countries moving from the 10k group to the 20k group in histograms, and an upward moving trend of its box position. However, the overall income level was still below North America by 2012.
