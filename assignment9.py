@@ -1,41 +1,38 @@
-#Author: Julie Cachia
-#Email: jyc436@nyu.edu
+from functions import *
+from module import *
+import sys
 
-import pandas as pd
-import matplotlib.pyplot as plt
-from analysis import *
-from dataset import *
+'''The main program imports self-defined functions and module, which load two files to visualize economic data
+by a given year input by users. Boxplots illustrate the median, average, 1st and 3rd quartiles, and histograms of
+income conditions shows the numbers of countries in different continents.'''
 
-"""
-This main program will take as input a year between 1800 and 2012, until the user
-types in "finish". The program will graphically explore the distributions of income
-per person in relation to geographical region for that year. 
-"""
-
-while True:
+load_data()
+def main():
     try:
-        year_input = input("Enter a year between 1800 and 2012 to display graphs: ")
-	if year_input == "finish":
-	    break
-        else:
-	    try:
-                year = int(year_input)
-		if year < 1800 or year > 2012:
-		    raise InvalidInput
-		income_dist(year)
-	    except InvalidInput:
-                print("Value is not between 1800 - 2012.")
-		continue
-	    except ValueError:
-		print('Invalid Input')
-    except EOFError:
-	print('Input Error')
+        inp = input(
+            "Input a year in which the yearly income per person you would like to see(Between 1800 and 2012). "
+            "Input 'finish' to stop the program.\n")
+        while inp != 'finish':
+            input_year = int(inp)
+            if input_year > 2012 or input_year < 1800:
+                raise ValueError('Invalid input!')
+
+            else:
+                try:
+                    data = merge_by_year(input_year)
+                    graph = tool(input_year, data)
+                    graph.histogram() and graph.boxplot()
+                    plt.close()
+                    sys.exit(0)
+                except ValueError:
+                    print('Invalid input!')
+
     except KeyboardInterrupt:
-	print('Keyboard Interrupt')
+        sys.exit(1)
 
+    except EOFError:
+        sys.exit(2)
 
-for y in range(2007,2013):
-    merged = merge_by_year(y)
-    analysis_by_year = analysis(merged, y)
-    analysis_by_year.histogram_region()
-    analysis_by_year.boxplot_region()
+if __name__ == "__main__":
+    main()
+
