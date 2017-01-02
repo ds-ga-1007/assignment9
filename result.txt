@@ -1,9 +1,0 @@
-The general trend of GDP per Capital in Europe, North America and Oceania are relatively stable.
-This is due to the above three continents are mainly developed countries. However, we still see
-some decline in those countries in 2008 because of the financial crisis. Another stable-economy
-continent is Africa, because it is full of the most under-developed countries. Economy is not
-improving. Asia and South America have economic improvement during this period. We can notice
-an interesting distribution in Asia, the median is well below the average, which is caused by
-the most developed countries in Asia, such as Japan and Singopore, are much richer than the
-median economy countries. So the average is much skewed upward.
-
