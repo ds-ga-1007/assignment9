@@ -1,0 +1,44 @@
+'''
+Created on 2016年12月4日
+
+@author: bz866
+'''
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+def read_data():
+    '''
+    load data and show column names
+    '''
+    countries = pd.read_csv('countries.csv')
+    income = pd.read_excel('indicator gapminder gdp_per_capita_ppp.xlsx', index_col = 0)
+    income_transpose = income.T
+    print(income_transpose.head())
+    return countries, income
+
+def merge_by_year(year):
+    '''
+    merge_by_year
+    '''
+    countries = pd.read_csv('countries.csv')
+    income = pd.read_excel('indicator gapminder gdp_per_capita_ppp.xlsx', index_col = 0)
+    df1 = pd.concat([["Country"], countries["Region"]], axis = 1)
+    df2 = income.loc[year,:].to_frame("Income")
+    merged = pd.merge(df1, df2, left_on  = "Country", right_index = True)
+    return merged
+
+def show_distribution(income, year):
+    '''show distribution figure in a new window according Users' input'''
+    income[year].dropna().plot(kind = 'hist')
+    plt.title("Histogram of graphically distribution of the income per person in " + str(year))
+    plt.xlabel('Income per person')
+    plt.ylabel('Count')
+    plt.show()
+    
+    '''close the window for next input'''
+    plt.close() 
+    
+    
+    
