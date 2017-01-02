@@ -1,0 +1,13 @@
+import pandas as pd
+'''
+Created on Nov 30, 2016
+
+@author: peimengsui
+@desc: this program runs a user interactive data analysis tool on income country dataset
+'''
+
+if __name__ == '__main__':
+    countries = pd.read_csv('countries.csv')
+    income = pd.read_excel('indicator gapminder gdp_per_capita_ppp.xlsx',index_col=0).T
+    income.head()
+    

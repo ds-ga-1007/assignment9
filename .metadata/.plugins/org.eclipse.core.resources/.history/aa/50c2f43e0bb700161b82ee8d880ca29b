@@ -1,0 +1,9 @@
+'''
+Created on Nov 30, 2016
+
+@author: peimengsui
+@desc: this program runs a user interactive data analysis tool on income country dataset
+'''
+
+if __name__ == '__main__':
+    

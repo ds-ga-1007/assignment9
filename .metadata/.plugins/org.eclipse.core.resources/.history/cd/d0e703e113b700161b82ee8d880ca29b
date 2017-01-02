@@ -1,0 +1,35 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+'''
+Created on Nov 30, 2016
+
+@author: peimengsui
+@desc: define functions and a class for data analysis tool
+'''
+def visual_income_dist(year,dataset):
+    '''
+    this function plots distribution over countries of the income per person for a given year
+    '''
+    plt.hist(dataset[year].dropna().values)
+    plt.title("distribution of income per person across all countries_"+str(year))
+    plt.xlabel("income_per_person")
+    plt.ylabel("count")
+    
+def merge_by_year(coutries,income,year):
+    '''
+    this function merges the countries and income data sets for any given year
+    '''
+    income_year = pd.DataFrame(income[year])
+    merged = pd.merge(coutries,income_year,left_index=True,right_index=True)
+    return merged
+class MyClass(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+        

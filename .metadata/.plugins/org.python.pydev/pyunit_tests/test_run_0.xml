@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 0" tests="1" total_time="Finished in: 0.02 secs."/>
+<test location="/home/peimengsui/Documents/ProgrammingDS/assignment9/ps3336/test.py" status="error" test="Test.testMerge" time="">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/home/peimengsui/Documents/ProgrammingDS/assignment9/ps3336/test.py", line 14, in testMerge
+    self.assertEqual(merge_by_year(countries, income,2000).columns,['Region','Income','Country'])
+  File "/home/peimengsui/anaconda3/lib/python3.5/unittest/case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/home/peimengsui/anaconda3/lib/python3.5/unittest/case.py", line 810, in _baseAssertEqual
+    if not first == second:
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="ps3336 test.py"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>
